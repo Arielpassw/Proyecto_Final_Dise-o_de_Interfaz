@@ -74,3 +74,42 @@ nav a {
   margin-bottom: 15px;
   text-align: left;
 }
+
+/* ======= SECCIÓN HORARIOS ======= */
+.hour {
+  padding: 60px 20px;
+  background-color: white; 
+}
+
+.hour-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1100px;
+  margin: 0 auto;
+  gap: 40px;
+}
+
+.hour-text {
+  flex: 1;
+  color: #000000;
+  line-height: 1.6;
+}
+
+.hour-text h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.hour-text p {
+  font-size: 1.1em;
+}
+
+.hour-img img {
+  width: 350px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
