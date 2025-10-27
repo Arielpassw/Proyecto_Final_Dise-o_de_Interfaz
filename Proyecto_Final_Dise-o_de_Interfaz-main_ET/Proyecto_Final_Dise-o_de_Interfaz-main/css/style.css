@@ -132,3 +132,51 @@ header {
 .main-nav ul {
   box-shadow: -4px 0 15px rgba(0, 0, 0, 0.4);
 }
+
+/*NUESTRA INSTALACIONES*/
+.facilites{
+  display: flex;
+  background: #c7ae85;
+}
+
+.facilites-text h2{                       
+  padding: 8px 15px;                         
+  color: #000;                   
+  display: inline-block;         
+  margin-left: 45px;
+  font-size: 40px;
+  margin-top: 10px;
+}
+
+.facilites img{
+  margin-top: 90px;
+  margin-left: -400px;
+  width: 400px;
+  border-radius: 16px;
+  margin-bottom: 15px;
+}
+
+.img-install img {
+  opacity: 0;                     
+  transform: translateY(40px);    
+  animation: entrada-img 1.2s ease-out forwards; 
+}
+
+
+@keyframes entrada-img {
+  to {
+    opacity: 2;                   
+    transform: translateY(0);     
+  }
+}
+
+.facilites h1{
+  margin-left: 250px;
+  margin-top: 175px;
+  font-size: 35px;
+}
+.facilites p{
+  margin-left: 250px;
+  font-size: 25px;
+}
+
